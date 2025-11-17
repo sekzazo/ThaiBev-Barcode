@@ -1,0 +1,89 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Hosting;
+using System.Text;
+using System.Collections.Generic;
+
+namespace ThaiBev.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class userController : ControllerBase
+    {
+        private readonly IWebHostEnvironment _env;
+
+        public userController(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
+
+        public record UserCredential(string userName, string password);
+
+        [HttpGet("credentials")]
+        public ActionResult<IEnumerable<UserCredential>> GetCredentials([FromQuery] string? userNameFilter = null)
+        {
+            var path = Path.Combine(_env.ContentRootPath, "Data", "user.csv");
+            if (!System.IO.File.Exists(path))
+            {
+                return NotFound("Data/user.csv not found");
+            }
+
+            var lines = System.IO.File.ReadAllLines(path);
+            var result = new List<UserCredential>();
+
+            for (int i = 1; i < lines.Length; i++)
+            {
+                var line = lines[i];
+                if (string.IsNullOrWhiteSpace(line)) continue;
+
+                var cols = ParseCsvLine(line);
+                if (cols.Length < 6) continue; // userID,userName,userCode,createAt,createBy,password
+
+                if (userNameFilter != null && !string.Equals(cols[1], userNameFilter, StringComparison.OrdinalIgnoreCase))
+                    continue;
+
+                var userNameValue = cols[1];
+                var password = cols[5];
+                result.Add(new UserCredential(userNameValue, password));
+            }
+
+            return Ok(result);
+        }
+
+        private static string[] ParseCsvLine(string line)
+        {
+            var values = new List<string>();
+            var current = new StringBuilder();
+            bool inQuotes = false;
+
+            for (int i = 0; i < line.Length; i++)
+            {
+                char c = line[i];
+                if (c == '"')
+                {
+                    if (inQuotes && i + 1 < line.Length && line[i + 1] == '"')
+                    {
+                        // Escaped quote
+                        current.Append('"');
+                        i++; // skip next quote
+                    }
+                    else
+                    {
+                        inQuotes = !inQuotes;
+                    }
+                }
+                else if (c == ',' && !inQuotes)
+                {
+                    values.Add(current.ToString().Trim().Trim('"'));
+                    current.Clear();
+                }
+                else
+                {
+                    current.Append(c);
+                }
+            }
+
+            values.Add(current.ToString().Trim().Trim('"'));
+            return values.ToArray();
+        }
+    }
+}

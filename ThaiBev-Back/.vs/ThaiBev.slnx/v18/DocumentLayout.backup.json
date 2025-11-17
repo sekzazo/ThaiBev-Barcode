@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|c:\\users\\seki\\desktop\\project\\thaibev\\data\\user.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|solutionrelative:data\\user.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|c:\\users\\seki\\desktop\\project\\thaibev\\data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|solutionrelative:data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|c:\\users\\seki\\desktop\\project\\thaibev\\controllers\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|solutionrelative:controllers\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|c:\\users\\seki\\desktop\\project\\thaibev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|c:\\users\\seki\\desktop\\project\\thaibev\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B64674A-FA25-98DD-ACDE-67B709577104}|ThaiBev.csproj|solutionrelative:controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Controllers\\user.cs",
+              "RelativeDocumentMoniker": "Controllers\\user.cs",
+              "ToolTip": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Controllers\\user.cs",
+              "RelativeToolTip": "Controllers\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T04:09:32.686Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.json",
+              "DocumentMoniker": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Data\\product.json",
+              "RelativeDocumentMoniker": "Data\\product.json",
+              "ToolTip": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Data\\product.json",
+              "RelativeToolTip": "Data\\product.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-17T08:09:03.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:23:08.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "user.json",
+              "DocumentMoniker": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Data\\user.json",
+              "RelativeDocumentMoniker": "Data\\user.json",
+              "ToolTip": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Data\\user.json",
+              "RelativeToolTip": "Data\\user.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T13:27:40.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Controllers\\product.cs",
+              "RelativeDocumentMoniker": "Controllers\\product.cs",
+              "ToolTip": "C:\\Users\\Seki\\Desktop\\Project\\ThaiBev\\Controllers\\product.cs",
+              "RelativeToolTip": "Controllers\\product.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T04:09:30.566Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

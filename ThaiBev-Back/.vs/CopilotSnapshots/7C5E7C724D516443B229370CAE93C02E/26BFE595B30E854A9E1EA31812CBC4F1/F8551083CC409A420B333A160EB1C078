@@ -1,0 +1,4 @@
+﻿userID,userName,userCode,createAt,createBy
+1,"Admin User","USR-0001",2025-01-01T08:00:00Z,"system"
+2,"John Doe","USR-0002",2025-01-02T09:30:00Z,"system"
+3,"Jane Smith","USR-0003",2025-01-03T11:15:00Z,"system"

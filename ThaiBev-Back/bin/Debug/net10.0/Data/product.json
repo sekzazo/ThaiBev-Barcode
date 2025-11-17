@@ -1,0 +1,30 @@
+﻿[
+  {
+    "productID": 1,
+    "productName": "Soda Can 330ml",
+    "productCode": "PRD-0001",
+    "createAt": "2025-01-01T09:00:00Z",
+    "createBy": "system"
+  },
+  {
+    "productID": 2,
+    "productName": "Mineral Water 500ml",
+    "productCode": "PRD-0002",
+    "createAt": "2025-01-02T10:30:00Z",
+    "createBy": "system"
+  },
+  {
+    "productID": 3,
+    "productName": "Iced Tea 450ml",
+    "productCode": "PRD-0003",
+    "createAt": "2025-01-03T14:15:00Z",
+    "createBy": "system"
+  },
+  {
+    "productID": 4,
+    "productName": "test",
+    "productCode": "xxxx-xxxx-xxxx-xxxx",
+    "createAt": "2025-11-13T16:55:49.158557Z",
+    "createBy": "system"
+  }
+]

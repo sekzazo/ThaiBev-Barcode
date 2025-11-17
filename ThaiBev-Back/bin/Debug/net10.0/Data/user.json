@@ -1,0 +1,9 @@
+[
+  {
+    "userID": 1,
+    "userName": "User",
+    "passwordHash": "PLAINTEXT:123",
+    "createAt": "2025-01-01T08:00:00Z",
+    "createBy": "admin"
+  }
+]

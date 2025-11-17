@@ -1,0 +1,6 @@
+﻿File: Data\user.csv
+````````
+userID,userName,userCode,createAt,createBy,password
+1,"Admin User","USR-0001",2025-01-01T08:00:00Z,"system","Admin@123!"
+2,"John Doe","USR-0002",2025-01-02T09:30:00Z,"system","John@123!"
+3,"Jane Smith","USR-0003",2025-01-03T11:15:00Z,"system","Jane@123!"
